@@ -1,23 +1,15 @@
 # money-converter
 
-Đồ án nhóm của bạn nào đó
 
 ## Lưu ý
 
 ⚠️ Xóa file [`README.md`](./README.md), folder `.git` (có thể bị ẩn) và file `.gitignore` khi nộp bài
 
-| Ký hiệu | Đọc thành                                      |
-| ------- | ---------------------------------------------- |
-| 🤝      | Con quen anh kia ảnh chỉ                       |
-| ✍🏻      | Này con tự làm                                 |
-| 🙏🏻      | Con hem biết con đang làm gì đâu thầy đừng hỏi |
-| 🧠      | Con biết con đang làm gì                       |
-
 ```
 .
-├── static 🤝 🙏🏻
-├── templates 🤝 🧠
-└── main.py ✍🏻 🧠
+├── static 
+├── templates 
+└── main.py 
 ```
 
 ## Cấu trúc file
