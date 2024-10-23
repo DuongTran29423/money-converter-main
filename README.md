@@ -1,10 +1,6 @@
 # money-converter
 
 
-## Lưu ý
-
-⚠️ Xóa file [`README.md`](./README.md), folder `.git` (có thể bị ẩn) và file `.gitignore` khi nộp bài
-
 ```
 .
 ├── static 
