@@ -10,10 +10,6 @@
 
 ## Cấu trúc file
 
-### static 🤝 🙏🏻
-
-Các resources tĩnh, chủ yếu dùng để làm đẹp giao diện cho web
-
 ### templates 🤝 🧠
 
 Phần giao diện của web, với data được đổ lên từ server
@@ -63,21 +59,6 @@ if __name__ == "__main__":
 ```
 
 ## Cách giao diện hoạt động 🤝 🧠
-
-Tạm chia giao diện thành 3 phần
-
-### Phần headline
-
-Code cứng. Nếu cần sửa thì vào trong [index.html](./templates/index.html), ctrl + F tìm text rồi tự sửa, chỉ nên sửa text không nên sửa html, trừ khi biết mình đang làm gì
-
-### Phần quy đổi
-
--   Giao diện thì "tụi con copy trên mạng / nhờ người chỉ, chỉ sửa name của các input để gọi xuống dưới python xử lý" (nếu tự tin khoe cá tính thì đọc code rồi tự chém luôn, bảo là con tự làm dựa trên [Bootstrap](https://getbootstrap.com/))
--   Input thứ nhất, có name là `source-input`, được dùng để gọi xuống python và thu thập dưới tên biến là `src_input`
-
-```py
-src_input = int(request.form['source-input'])
-```
 
 -   Sau khi submit form quy đổi, sẽ gây ra tình trạng reload lại trang, gây mất giá trị của input. Giá trị này sau đó được khôi phục bằng cách lấy giá trị của `src_input`
 
